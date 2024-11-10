@@ -34,5 +34,5 @@ jobs:
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
           postman login --with-api-key PMAK-672cb1a6abb738000177511e-f8ed6a11d40e6a0010a365ccd90715455b
-          postman collection run 542501-046b8097-8e47-4c94-aa8b-d89cfb7f2983 -e 542501-b66f604e-2319-4101-9ec2-9e221154f794
+          postman collection run "ItSwitcher.postman_collection.json" -e "env.json"
 
